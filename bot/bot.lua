@@ -242,7 +242,7 @@ function create_config( )
       "version"
       --"arabic"
      },
-    sudo_users = {158990680},--ایدی خود را در کادر روبرو بجای 158990680 بگذارید
+    sudo_users = {137984481,87946267},--ایدی خود را در کادر روبرو بجای 158990680 بگذارید
     admin_users = {},
     disabled_channels = {}
   }
