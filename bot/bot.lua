@@ -1,4 +1,4 @@
-package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
+ package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
   ..';.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
@@ -239,10 +239,14 @@ function create_config( )
       "persian_lang",
       "settings",
       "spam",
-      "version"
+      "version" ,
+      "ingroup",
+      "arian",
+      "myid",
+
       --"arabic"
      },
-    sudo_users = {137984481,1973567},--ایدی خود را در کادر روبرو بجای 158990680 بگذارید
+    sudo_users = {137984481},--ایدی خود را در کادر روبرو بجای 158990680 بگذارید
     admin_users = {},
     disabled_channels = {}
   }
